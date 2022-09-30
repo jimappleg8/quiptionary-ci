@@ -1,0 +1,38 @@
+CREATE TABLE `definition_source` (
+  `definition_id` int(11) UNSIGNED NOT NULL ,
+  `source_id` int(11) UNSIGNED NOT NULL ,
+  `author_id` int(11) UNSIGNED NOT NULL ,
+  `cited_source_id` int(11) UNSIGNED ,
+  `notes` text NOT NULL ,
+  `verified` varchar(1) NOT NULL
+) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+INSERT INTO `definition_source` (`definition_id`, `source_id`, `notes`, `verified`) VALUES
+(41, 4, '', 'N'),
+(49, 4, '', 'N'),
+(112, 4, '', 'N'),
+(399, 4, '', 'N'),
+(444, 4, '', 'N'),
+(463, 4, '', 'N'),
+(812, 4, '', 'N'),
+(1107, 4, '', 'N'),
+(1233, 4, '', 'N'),
+(1262, 4, '', 'N'),
+(1277, 4, '', 'N'),
+(1280, 4, '', 'N'),
+(1295, 4, '', 'N'),
+(1311, 4, '', 'N'),
+(1330, 4, '', 'N'),
+(1353, 4, '', 'N'),
+(1480, 4, '', 'N'),
+(1493, 4, '', 'N'),
+(1548, 4, '', 'N'),
+(1580, 4, '', 'N'),
+(1704, 4, '', 'N'),
+(1773, 4, '', 'N'),
+(1786, 4, '', 'N'),
+(2052, 4, '', 'N'),
+(2082, 4, '', 'N'),
+(2262, 4, '', 'N'),
+(150, 28, '', 'N'),
+

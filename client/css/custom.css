@@ -1,0 +1,52 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+dl dt {
+  margin-top: 1em;
+}
+dl {
+  padding-bottom:2em;
+  border-bottom: solid 1px #000
+}
+#pagination a, #pagination strong {
+  padding: 0 4px;
+}
+
+/* -----------------------------------
+   Basic Form
+   ----------------------------------- */
+
+form.basic-form {
+  margin-top: 30px;
+}
+
+/*-------------------------------------------------
+  FLASH MESSAGES
+-------------------------------------------------*/
+
+#flash_alert { 
+  width:100%; 
+  margin:30px auto 12px auto;
+  background:url(/images/alertgood_icon.gif) #E2F9E3 left no-repeat;
+  clear:both; 
+  color:#060; 
+  padding:5px 5px 5px 30px; 
+  font-size:14px; 
+  border:1px solid #9c9;
+}
+
+#flash_error { 
+  width:100%; 
+  margin:30px auto 12px auto;
+  background:url(/images/alertbad_icon.gif) #C00 left no-repeat;
+  clear:both; 
+  color:#FFF; 
+  padding:5px 5px 5px 30px; 
+  font-size:14px; 
+  border:1px solid #900;
+}
